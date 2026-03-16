@@ -1,0 +1,18 @@
+# Ignore the virtual environment (very important)
+.venv/
+venv/
+env/
+
+# Ignore Python cache files
+__pycache__/
+
+#Ignore Backed Files of data
+Backend/records/
+Backend/transaction/
+
+# Ignore OS-specific system files
+.DS_Store
+Thumbs.db
+
+#Miscellaneous
+requirements.txt
