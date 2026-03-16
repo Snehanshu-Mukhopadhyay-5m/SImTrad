@@ -13,6 +13,3 @@ Backend/transaction/
 # Ignore OS-specific system files
 .DS_Store
 Thumbs.db
-
-#Miscellaneous
-requirements.txt
