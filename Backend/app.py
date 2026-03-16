@@ -295,5 +295,7 @@ def trade():
     if error: return jsonify({"success": False, "message": error}), 400
     return jsonify({"success": True})
 
+
 if __name__ == "__main__":
-    app.run(debug=True, use_reloader=False)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
